@@ -1,0 +1,23 @@
+{
+  "name": "task11-StudentScore",
+  "version": "1.0.0",
+  "description": "\"# task11-StudentScore\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "node run-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrea0229/task11-StudentScore.git"
+  },
+  "keywords": [],
+  "author": "CPY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrea0229/task11-StudentScore/issues"
+  },
+  "dependencies": {
+    "jasmine": "2.6.0"
+  },
+  "homepage": "https://github.com/Andrea0229/task11-StudentScore#readme"
+}
