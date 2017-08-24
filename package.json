@@ -17,6 +17,7 @@
     "url": "https://github.com/Andrea0229/task11-StudentScore/issues"
   },
   "dependencies": {
+    "cli-interact": "^0.1.9",
     "jasmine": "2.6.0"
   },
   "homepage": "https://github.com/Andrea0229/task11-StudentScore#readme"
