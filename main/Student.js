@@ -7,8 +7,8 @@ class Student {
     constructor(name, stuId, clazz, subjects) {
         this.name = name;
         this.stuId = stuId;
-        this.clazz = clazz;
-        this.subjects = subjects;
+        this.clazz = clazz;             //班级
+        this.subjects = subjects;       //科目数组
     }
 }
 
