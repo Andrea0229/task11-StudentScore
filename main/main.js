@@ -1,11 +1,11 @@
 const optionList = require("./optionList");
-const getOption = require('cli-interact').getNumber;
+// const getOption = require('cli-interact').getNumber;
+
+main();
 
 function main() {
     // getOptions();
-    let options = optionList();
-    console.log(options);
-    let option = getOption('请输入你的选择（1~3）：')
+    optionList();
 }
 
 module.exports = main;
