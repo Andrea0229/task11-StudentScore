@@ -22,8 +22,5 @@ describe('班级方法的测试', function () {
         let cls = new Class(6);
         let subjects = {"语文":115, "数学":135};
         let stu = new Student("XiaoZhang", "1503210001", 6, subjects);
-        // cls.appendStudent(stu);
-
-        // expect(stu).toEqual(cls.members[0]);
     })
 })

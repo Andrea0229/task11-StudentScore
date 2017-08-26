@@ -108,7 +108,7 @@ function printStudent() {
     let [sum,sumScore, sumScores] = [0,0,[]];
     let count = 0;
 
-    console.log(`成绩单\n姓名|数学|语文|英语|编程|平均分|总分\n========================\n`);
+    console.log(`成绩单\n姓名|数学|语文|英语|编程|平均分|总分\n========================`);
     stuIds.forEach(id =>{
         let student = getStudent(id);
         if(student){
@@ -174,9 +174,6 @@ function selectOption(num){
             break
     }
 
-    // console.log(result);
-    // return result;
 }
 
-// module.exports = [optionList,getStuTrueMsg] ;
 module.exports = optionList;
