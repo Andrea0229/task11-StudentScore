@@ -10,7 +10,6 @@ function optionList(){
     console.log(getOptionList().join("\n"));
     let num = getOption("请输入你的选择（1～3）：\n");
     selectOption(num);
-    console.log("-----------欢迎使用--------------");
 }
 
 function getOptionList() {
@@ -34,15 +33,7 @@ function getSubjects(stuMsg) {
     return subjects;
 }
 
-/**
- * 测试学生科目
- * @param subjects
- */
-function printSubject(subjects){
-    subjects.forEach(sub=>{
-        console.log(sub.subName+":"+sub.score+"\n");
-    })
-}
+
 
 function addStudent() {
     let stuMsg = Question("请输入学生信息（格式：姓名, 学号, 班级, 学科: 成绩, ...），按回车提交：");
@@ -151,9 +142,6 @@ function getStudent(id) {
  * 判断输入学号的格式是否正确
  */
 function isStuId(stuIds) {      //判断特殊字符除了‘，’还有其他的吗（仅含有数字和逗号）
-    // if(stuIds.indexOf(",") < 0  && isNaN(Number(stuIds))){
-    //     return false;
-    // }
     return true;
 }
 

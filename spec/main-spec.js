@@ -1,8 +1,9 @@
-'use strict';
+// 'use strict';
 
-const [optionList, selectOption] = require("../main/optionList");
+const optionList = require("../main/optionList");
 // const main = require('../main/main');
 
+/*
 describe("命令行菜单栏列表", function () {
     it("命令行-选项列表1：", function () {
         let options = optionList();
@@ -33,10 +34,10 @@ describe("命令行选项", function () {
 
     });
 
-    /*it("选择2：",function () {
+    /!*it("选择2：",function () {
         let result = selectOption(2);
         // let espect_str = `请输入要打印的学生的学号（格式： 学号, 学号,...），按回车提交：`;
 
         expect(espect_str).toEqual(result);
-    });*/
-});
+    });*!/
+});*/
