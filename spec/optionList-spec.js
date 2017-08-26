@@ -1,4 +1,4 @@
-const [optionList,selectOption,addStudent,getStuTrueMsg] = require('../main/optionList');
+const [optionList,getStuTrueMsg] = require('../main/optionList');
 
 describe("菜单栏测试",function () {
     it("学生信息是否正确",function () {

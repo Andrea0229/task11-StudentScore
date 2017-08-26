@@ -6,10 +6,7 @@ class Subject{
     constructor(name, score){
         this.name = name;
         this.score = score;
-        // this.allSubjects = [];
     }
-
-    // addSubject()
 }
 
 module.exports = Subject;

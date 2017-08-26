@@ -4,7 +4,6 @@ const optionList = require("./optionList");
 main();
 
 function main() {
-    // getOptions();
     optionList();
 }
 

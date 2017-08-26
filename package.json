@@ -2,9 +2,10 @@
   "name": "task11-StudentScore",
   "version": "1.0.0",
   "description": "\"# task11-StudentScore\"",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node run-test.js"
+    "test": "node run-test.js",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
